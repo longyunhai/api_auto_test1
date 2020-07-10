@@ -1,0 +1,156 @@
+2020-07-10 18:18:16,296 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/login
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '45', 'Content-Type': 'application/json'}
+    请求体：b'{"pwd": "VzuT98XI", "userName": "pafef09020"}'
+    
+2020-07-10 18:18:16,297 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:18:16 GMT'}
+    响应正文：{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTk0Mzc4MDk2NjI3LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==","userName":"pafef09020"}}
+    
+2020-07-10 18:18:51,226 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/login
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '45', 'Content-Type': 'application/json'}
+    请求体：b'{"pwd": "VzuT98XI", "userName": "pafef09020"}'
+    
+2020-07-10 18:18:51,227 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:18:51 GMT'}
+    响应正文：{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTk0Mzc4MTMxNTU3LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==","userName":"pafef09020"}}
+    
+2020-07-10 18:20:50,074 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/login
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '45', 'Content-Type': 'application/json'}
+    请求体：b'{"pwd": "VzuT98XI", "userName": "pafef09020"}'
+    
+2020-07-10 18:20:50,075 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:20:50 GMT'}
+    响应正文：{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTk0Mzc4MjUwNDA3LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==","userName":"pafef09020"}}
+    
+2020-07-10 18:22:19,179 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/login
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '45', 'Content-Type': 'application/json'}
+    请求体：b'{"pwd": "VzuT98XI", "userName": "pafef09020"}'
+    
+2020-07-10 18:22:19,179 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:22:19 GMT'}
+    响应正文：{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTk0Mzc4MzM5NTE0LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==","userName":"pafef09020"}}
+    
+2020-07-10 18:22:19,191 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/product/addProd
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'eyJ0aW1lT3V0IjoxNTk0Mzc4MzM5NTE0LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==', 'Content-Length': '145', 'Content-Type': 'application/json'}
+    请求体：b'{"brand": "huawei371", "colors": ["string"], "price": 0, "productCode": "string", "productName": "string", "sizes": ["string"], "type": "string"}'
+    
+2020-07-10 18:22:19,192 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(响应)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:22:19 GMT'}
+    响应正文：{"code":9999,"message":"价格最小为1；","data":""}
+    
+2020-07-10 18:22:19,193 - tools.log_tool - ERROR - {"code":9999,"message":"价格最小为1；","data":""}
+2020-07-10 18:22:51,080 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/login
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '45', 'Content-Type': 'application/json'}
+    请求体：b'{"pwd": "VzuT98XI", "userName": "pafef09020"}'
+    
+2020-07-10 18:22:51,081 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:22:51 GMT'}
+    响应正文：{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTk0Mzc4MzcxNDE1LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==","userName":"pafef09020"}}
+    
+2020-07-10 18:22:51,094 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/product/addProd
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'eyJ0aW1lT3V0IjoxNTk0Mzc4MzcxNDE1LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==', 'Content-Length': '145', 'Content-Type': 'application/json'}
+    请求体：b'{"brand": "huawei288", "colors": ["string"], "price": 0, "productCode": "string", "productName": "string", "sizes": ["string"], "type": "string"}'
+    
+2020-07-10 18:22:51,094 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(响应)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:22:51 GMT'}
+    响应正文：{"code":9999,"message":"价格最小为1；","data":""}
+    
+2020-07-10 18:22:51,095 - tools.log_tool - ERROR - {"code":9999,"message":"价格最小为1；","data":""}
+2020-07-10 18:24:42,037 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/login
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '45', 'Content-Type': 'application/json'}
+    请求体：b'{"pwd": "VzuT98XI", "userName": "pafef09020"}'
+    
+2020-07-10 18:24:42,037 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:24:42 GMT'}
+    响应正文：{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTk0Mzc4NDgyMzczLCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==","userName":"pafef09020"}}
+    
+2020-07-10 18:24:42,046 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/product/addProd
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'eyJ0aW1lT3V0IjoxNTk0Mzc4NDgyMzczLCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==', 'Content-Length': '145', 'Content-Type': 'application/json'}
+    请求体：b'{"brand": "huawei298", "colors": ["string"], "price": 0, "productCode": "string", "productName": "string", "sizes": ["string"], "type": "string"}'
+    
+2020-07-10 18:24:42,046 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(响应)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:24:42 GMT'}
+    响应正文：{"code":9999,"message":"价格最小为1；","data":""}
+    
+2020-07-10 18:24:42,047 - tools.log_tool - ERROR - {"code":9999,"message":"价格最小为1；","data":""}
+2020-07-10 18:25:39,321 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/login
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '45', 'Content-Type': 'application/json'}
+    请求体：b'{"pwd": "VzuT98XI", "userName": "pafef09020"}'
+    
+2020-07-10 18:25:39,322 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:25:39 GMT'}
+    响应正文：{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTk0Mzc4NTM5NjU4LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==","userName":"pafef09020"}}
+    
+2020-07-10 18:25:39,335 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/product/addProd
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'eyJ0aW1lT3V0IjoxNTk0Mzc4NTM5NjU4LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==', 'Content-Length': '145', 'Content-Type': 'application/json'}
+    请求体：b'{"brand": "huawei927", "colors": ["string"], "price": 0, "productCode": "string", "productName": "string", "sizes": ["string"], "type": "string"}'
+    
+2020-07-10 18:25:39,336 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(响应)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:25:39 GMT'}
+    响应正文：{"code":9999,"message":"价格最小为1；","data":""}
+    
+2020-07-10 18:25:39,337 - tools.log_tool - ERROR - {"code":9999,"message":"价格最小为1；","data":""}
+2020-07-10 18:25:59,402 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/login
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '45', 'Content-Type': 'application/json'}
+    请求体：b'{"pwd": "VzuT98XI", "userName": "pafef09020"}'
+    
+2020-07-10 18:25:59,403 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:25:59 GMT'}
+    响应正文：{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTk0Mzc4NTU5NzM5LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==","userName":"pafef09020"}}
+    
+2020-07-10 18:25:59,422 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/product/addProd
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'eyJ0aW1lT3V0IjoxNTk0Mzc4NTU5NzM5LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==', 'Content-Length': '165', 'Content-Type': 'application/json'}
+    请求体：b'{"brand": "huawei015", "colors": ["\\u7c89", "\\u7ea2", "\\u7d2b"], "price": 0, "productCode": "string", "productName": "string", "sizes": ["string"], "type": "string"}'
+    
+2020-07-10 18:25:59,422 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(响应)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:25:59 GMT'}
+    响应正文：{"code":9999,"message":"价格最小为1；","data":""}
+    
+2020-07-10 18:25:59,423 - tools.log_tool - ERROR - {"code":9999,"message":"价格最小为1；","data":""}
+2020-07-10 18:28:09,317 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/login
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '45', 'Content-Type': 'application/json'}
+    请求体：b'{"pwd": "VzuT98XI", "userName": "pafef09020"}'
+    
+2020-07-10 18:28:09,318 - tools.log_tool - INFO - -------------------用户登录(请求)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:28:09 GMT'}
+    响应正文：{"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTk0Mzc4Njg5NjU4LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==","userName":"pafef09020"}}
+    
+2020-07-10 18:28:09,330 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(请求)-------------------
+    请求方法：POST请求路径：http://192.168.1.151:8084/product/addProd
+    请求头：{'User-Agent': 'python-requests/2.24.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'token': 'eyJ0aW1lT3V0IjoxNTk0Mzc4Njg5NjU4LCJ1c2VySWQiOjI1MTQ2LCJ1c2VyTmFtZSI6InBhZmVmMDkwMjAifQ==', 'Content-Length': '165', 'Content-Type': 'application/json'}
+    请求体：b'{"brand": "huawei094", "colors": ["\\u7eff", "\\u7d2b", "\\u7ea2"], "price": 0, "productCode": "string", "productName": "string", "sizes": ["string"], "type": "string"}'
+    
+2020-07-10 18:28:09,331 - tools.log_tool - INFO - -------------------增加商品test__product_addProd(响应)-------------------
+    响应码：200
+    响应头：{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Fri, 10 Jul 2020 10:28:09 GMT'}
+    响应正文：{"code":9999,"message":"价格最小为1；","data":""}
+    
+2020-07-10 18:28:09,332 - tools.log_tool - ERROR - {"code":9999,"message":"价格最小为1；","data":""}
